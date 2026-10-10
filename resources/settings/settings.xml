@@ -1,0 +1,432 @@
+<settings>
+    <setting propertyKey="@Properties.Preset" title="@Strings.PresetTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.PresetOpt0</listEntry>
+            <listEntry value="1">@Strings.PresetOpt1</listEntry>
+            <listEntry value="2">@Strings.PresetOpt2</listEntry>
+            <listEntry value="3">@Strings.PresetOpt3</listEntry>
+            <listEntry value="4">@Strings.PresetOpt4</listEntry>
+            <listEntry value="5">@Strings.PresetOpt5</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.Theme" title="@Strings.ThemeTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.ThemeOpt0</listEntry>
+            <listEntry value="1">@Strings.ThemeOpt1</listEntry>
+            <listEntry value="2">@Strings.ThemeOpt2</listEntry>
+            <listEntry value="3">@Strings.ThemeOpt3</listEntry>
+            <listEntry value="4">@Strings.ThemeOpt4</listEntry>
+            <listEntry value="5">@Strings.ThemeOpt5</listEntry>
+            <listEntry value="6">@Strings.ThemeOpt6</listEntry>
+            <listEntry value="7">@Strings.ThemeOpt7</listEntry>
+            <listEntry value="8">@Strings.ThemeOpt8</listEntry>
+            <listEntry value="9">@Strings.ThemeOpt9</listEntry>
+            <listEntry value="10">@Strings.ThemeOpt10</listEntry>
+            <listEntry value="11">@Strings.ThemeOpt11</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.Pattern" title="@Strings.PatternTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.PatternOpt0</listEntry>
+            <listEntry value="1">@Strings.PatternOpt1</listEntry>
+            <listEntry value="2">@Strings.PatternOpt2</listEntry>
+            <listEntry value="3">@Strings.PatternOpt3</listEntry>
+            <listEntry value="4">@Strings.PatternOpt4</listEntry>
+            <listEntry value="5">@Strings.PatternOpt5</listEntry>
+            <listEntry value="6">@Strings.PatternOpt6</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.PatternContrast" title="@Strings.PatternContrastTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.PatternContrastOpt0</listEntry>
+            <listEntry value="1">@Strings.PatternContrastOpt1</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.PixelSize" title="@Strings.PixelSizeTitle">
+        <settingConfig type="numeric" min="1" max="8"/>
+    </setting>
+    <setting propertyKey="@Properties.NumeralStyle" title="@Strings.NumeralStyleTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.NumeralStyleOpt0</listEntry>
+            <listEntry value="1">@Strings.NumeralStyleOpt1</listEntry>
+            <listEntry value="2">@Strings.NumeralStyleOpt2</listEntry>
+            <listEntry value="3">@Strings.NumeralStyleOpt3</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.RingMode" title="@Strings.RingModeTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.RingModeOpt0</listEntry>
+            <listEntry value="1">@Strings.RingModeOpt1</listEntry>
+            <listEntry value="2">@Strings.RingModeOpt2</listEntry>
+            <listEntry value="3">@Strings.RingModeOpt3</listEntry>
+            <listEntry value="4">@Strings.RingModeOpt4</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.SunMarks" title="@Strings.SunMarksTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.SunMarksOpt0</listEntry>
+            <listEntry value="1">@Strings.SunMarksOpt1</listEntry>
+            <listEntry value="2">@Strings.SunMarksOpt2</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.LumeColor" title="@Strings.LumeColorTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.LumeColorOpt0</listEntry>
+            <listEntry value="1">@Strings.LumeColorOpt1</listEntry>
+            <listEntry value="2">@Strings.LumeColorOpt2</listEntry>
+            <listEntry value="3">@Strings.LumeColorOpt3</listEntry>
+            <listEntry value="4">@Strings.LumeColorOpt4</listEntry>
+            <listEntry value="5">@Strings.LumeColorOpt5</listEntry>
+            <listEntry value="6">@Strings.LumeColorOpt6</listEntry>
+            <listEntry value="7">@Strings.LumeColorOpt7</listEntry>
+            <listEntry value="8">@Strings.LumeColorOpt8</listEntry>
+            <listEntry value="9">@Strings.LumeColorOpt9</listEntry>
+            <listEntry value="10">@Strings.LumeColorOpt10</listEntry>
+            <listEntry value="11">@Strings.LumeColorOpt11</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.Accent" title="@Strings.AccentTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.AccentOpt0</listEntry>
+            <listEntry value="1">@Strings.AccentOpt1</listEntry>
+            <listEntry value="2">@Strings.AccentOpt2</listEntry>
+            <listEntry value="3">@Strings.AccentOpt3</listEntry>
+            <listEntry value="4">@Strings.AccentOpt4</listEntry>
+            <listEntry value="5">@Strings.AccentOpt5</listEntry>
+            <listEntry value="6">@Strings.AccentOpt6</listEntry>
+            <listEntry value="7">@Strings.AccentOpt7</listEntry>
+            <listEntry value="8">@Strings.AccentOpt8</listEntry>
+            <listEntry value="9">@Strings.AccentOpt9</listEntry>
+            <listEntry value="10">@Strings.AccentOpt10</listEntry>
+            <listEntry value="11">@Strings.AccentOpt11</listEntry>
+            <listEntry value="12">@Strings.AccentOpt12</listEntry>
+            <listEntry value="13">@Strings.AccentOpt13</listEntry>
+            <listEntry value="14">@Strings.AccentOpt14</listEntry>
+            <listEntry value="15">@Strings.AccentOpt15</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.TextColor" title="@Strings.TextColorTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.TextColorOpt0</listEntry>
+            <listEntry value="1">@Strings.TextColorOpt1</listEntry>
+            <listEntry value="2">@Strings.TextColorOpt2</listEntry>
+            <listEntry value="3">@Strings.TextColorOpt3</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.SecondsColor" title="@Strings.SecondsColorTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.SecondsColorOpt0</listEntry>
+            <listEntry value="1">@Strings.SecondsColorOpt1</listEntry>
+            <listEntry value="2">@Strings.SecondsColorOpt2</listEntry>
+            <listEntry value="3">@Strings.SecondsColorOpt3</listEntry>
+            <listEntry value="4">@Strings.SecondsColorOpt4</listEntry>
+            <listEntry value="5">@Strings.SecondsColorOpt5</listEntry>
+            <listEntry value="6">@Strings.SecondsColorOpt6</listEntry>
+            <listEntry value="7">@Strings.SecondsColorOpt7</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.HandStyle" title="@Strings.HandStyleTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.HandStyleOpt0</listEntry>
+            <listEntry value="1">@Strings.HandStyleOpt1</listEntry>
+            <listEntry value="2">@Strings.HandStyleOpt2</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.FontStyle" title="@Strings.FontStyleTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.FontStyleOpt0</listEntry>
+            <listEntry value="1">@Strings.FontStyleOpt1</listEntry>
+            <listEntry value="2">@Strings.FontStyleOpt2</listEntry>
+            <listEntry value="3">@Strings.FontStyleOpt3</listEntry>
+            <listEntry value="4">@Strings.FontStyleOpt4</listEntry>
+            <listEntry value="5">@Strings.FontStyleOpt5</listEntry>
+            <listEntry value="6">@Strings.FontStyleOpt6</listEntry>
+            <listEntry value="7">@Strings.FontStyleOpt7</listEntry>
+            <listEntry value="8">@Strings.FontStyleOpt8</listEntry>
+            <listEntry value="9">@Strings.FontStyleOpt9</listEntry>
+            <listEntry value="10">@Strings.FontStyleOpt10</listEntry>
+            <listEntry value="11">@Strings.FontStyleOpt11</listEntry>
+            <listEntry value="12">@Strings.FontStyleOpt12</listEntry>
+            <listEntry value="13">@Strings.FontStyleOpt13</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.LabelStyle" title="@Strings.LabelStyleTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.LabelStyleOpt0</listEntry>
+            <listEntry value="1">@Strings.LabelStyleOpt1</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.DialLabel" title="@Strings.DialLabelTitle">
+        <settingConfig type="alphaNumeric" maxLength="12"/>
+    </setting>
+    <setting propertyKey="@Properties.DialLabel2" title="@Strings.DialLabel2Title">
+        <settingConfig type="alphaNumeric" maxLength="12"/>
+    </setting>
+    <setting propertyKey="@Properties.DialLabel3" title="@Strings.DialLabel3Title">
+        <settingConfig type="alphaNumeric" maxLength="12"/>
+    </setting>
+    <setting propertyKey="@Properties.HubStyle" title="@Strings.HubStyleTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.HubStyleOpt0</listEntry>
+            <listEntry value="1">@Strings.HubStyleOpt1</listEntry>
+            <listEntry value="2">@Strings.HubStyleOpt2</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.StatusIcons" title="@Strings.StatusIconsTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.StatusIconsOpt0</listEntry>
+            <listEntry value="1">@Strings.StatusIconsOpt1</listEntry>
+            <listEntry value="2">@Strings.StatusIconsOpt2</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.ShowFrames" title="@Strings.ShowFramesTitle">
+        <settingConfig type="boolean"/>
+    </setting>
+    <setting propertyKey="@Properties.DateNeighbors" title="@Strings.DateNeighborsTitle">
+        <settingConfig type="boolean"/>
+    </setting>
+    <setting propertyKey="@Properties.TextScale" title="@Strings.TextScaleTitle">
+        <settingConfig type="numeric" min="50" max="200"/>
+    </setting>
+    <setting propertyKey="@Properties.HandScale" title="@Strings.HandScaleTitle">
+        <settingConfig type="numeric" min="50" max="160"/>
+    </setting>
+    <setting propertyKey="@Properties.MarkerScale" title="@Strings.MarkerScaleTitle">
+        <settingConfig type="numeric" min="50" max="160"/>
+    </setting>
+    <setting propertyKey="@Properties.SubdialScale" title="@Strings.SubdialScaleTitle">
+        <settingConfig type="numeric" min="50" max="140"/>
+    </setting>
+    <setting propertyKey="@Properties.SlotTop" title="@Strings.SlotTopTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.SlotOpt0</listEntry>
+            <listEntry value="1">@Strings.SlotOpt1</listEntry>
+            <listEntry value="2">@Strings.SlotOpt2</listEntry>
+            <listEntry value="3">@Strings.SlotOpt3</listEntry>
+            <listEntry value="12">@Strings.SlotOpt12</listEntry>
+            <listEntry value="4">@Strings.SlotOpt4</listEntry>
+            <listEntry value="6">@Strings.SlotOpt6</listEntry>
+            <listEntry value="7">@Strings.SlotOpt7</listEntry>
+            <listEntry value="8">@Strings.SlotOpt8</listEntry>
+            <listEntry value="9">@Strings.SlotOpt9</listEntry>
+            <listEntry value="10">@Strings.SlotOpt10</listEntry>
+            <listEntry value="11">@Strings.SlotOpt11</listEntry>
+            <listEntry value="13">@Strings.SlotOpt13</listEntry>
+            <listEntry value="14">@Strings.SlotOpt14</listEntry>
+            <listEntry value="15">@Strings.SlotOpt15</listEntry>
+            <listEntry value="5">@Strings.SlotOpt5</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.SlotLeft" title="@Strings.SlotLeftTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.SlotOpt0</listEntry>
+            <listEntry value="1">@Strings.SlotOpt1</listEntry>
+            <listEntry value="2">@Strings.SlotOpt2</listEntry>
+            <listEntry value="3">@Strings.SlotOpt3</listEntry>
+            <listEntry value="12">@Strings.SlotOpt12</listEntry>
+            <listEntry value="4">@Strings.SlotOpt4</listEntry>
+            <listEntry value="6">@Strings.SlotOpt6</listEntry>
+            <listEntry value="7">@Strings.SlotOpt7</listEntry>
+            <listEntry value="8">@Strings.SlotOpt8</listEntry>
+            <listEntry value="9">@Strings.SlotOpt9</listEntry>
+            <listEntry value="10">@Strings.SlotOpt10</listEntry>
+            <listEntry value="11">@Strings.SlotOpt11</listEntry>
+            <listEntry value="13">@Strings.SlotOpt13</listEntry>
+            <listEntry value="14">@Strings.SlotOpt14</listEntry>
+            <listEntry value="15">@Strings.SlotOpt15</listEntry>
+            <listEntry value="5">@Strings.SlotOpt5</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.SlotRight" title="@Strings.SlotRightTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.SlotOpt0</listEntry>
+            <listEntry value="1">@Strings.SlotOpt1</listEntry>
+            <listEntry value="2">@Strings.SlotOpt2</listEntry>
+            <listEntry value="3">@Strings.SlotOpt3</listEntry>
+            <listEntry value="12">@Strings.SlotOpt12</listEntry>
+            <listEntry value="4">@Strings.SlotOpt4</listEntry>
+            <listEntry value="6">@Strings.SlotOpt6</listEntry>
+            <listEntry value="7">@Strings.SlotOpt7</listEntry>
+            <listEntry value="8">@Strings.SlotOpt8</listEntry>
+            <listEntry value="9">@Strings.SlotOpt9</listEntry>
+            <listEntry value="10">@Strings.SlotOpt10</listEntry>
+            <listEntry value="11">@Strings.SlotOpt11</listEntry>
+            <listEntry value="13">@Strings.SlotOpt13</listEntry>
+            <listEntry value="14">@Strings.SlotOpt14</listEntry>
+            <listEntry value="15">@Strings.SlotOpt15</listEntry>
+            <listEntry value="5">@Strings.SlotOpt5</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.Window9" title="@Strings.Window9Title">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.SlotOpt0</listEntry>
+            <listEntry value="1">@Strings.SlotOpt1</listEntry>
+            <listEntry value="2">@Strings.SlotOpt2</listEntry>
+            <listEntry value="3">@Strings.SlotOpt3</listEntry>
+            <listEntry value="12">@Strings.SlotOpt12</listEntry>
+            <listEntry value="4">@Strings.SlotOpt4</listEntry>
+            <listEntry value="6">@Strings.SlotOpt6</listEntry>
+            <listEntry value="7">@Strings.SlotOpt7</listEntry>
+            <listEntry value="8">@Strings.SlotOpt8</listEntry>
+            <listEntry value="9">@Strings.SlotOpt9</listEntry>
+            <listEntry value="10">@Strings.SlotOpt10</listEntry>
+            <listEntry value="11">@Strings.SlotOpt11</listEntry>
+            <listEntry value="13">@Strings.SlotOpt13</listEntry>
+            <listEntry value="14">@Strings.SlotOpt14</listEntry>
+            <listEntry value="15">@Strings.SlotOpt15</listEntry>
+            <listEntry value="5">@Strings.SlotOpt5</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.Window3" title="@Strings.Window3Title">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.SlotOpt0</listEntry>
+            <listEntry value="1">@Strings.SlotOpt1</listEntry>
+            <listEntry value="2">@Strings.SlotOpt2</listEntry>
+            <listEntry value="3">@Strings.SlotOpt3</listEntry>
+            <listEntry value="12">@Strings.SlotOpt12</listEntry>
+            <listEntry value="4">@Strings.SlotOpt4</listEntry>
+            <listEntry value="6">@Strings.SlotOpt6</listEntry>
+            <listEntry value="7">@Strings.SlotOpt7</listEntry>
+            <listEntry value="8">@Strings.SlotOpt8</listEntry>
+            <listEntry value="9">@Strings.SlotOpt9</listEntry>
+            <listEntry value="10">@Strings.SlotOpt10</listEntry>
+            <listEntry value="11">@Strings.SlotOpt11</listEntry>
+            <listEntry value="13">@Strings.SlotOpt13</listEntry>
+            <listEntry value="14">@Strings.SlotOpt14</listEntry>
+            <listEntry value="15">@Strings.SlotOpt15</listEntry>
+            <listEntry value="5">@Strings.SlotOpt5</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.Window6" title="@Strings.Window6Title">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.SlotOpt0</listEntry>
+            <listEntry value="1">@Strings.SlotOpt1</listEntry>
+            <listEntry value="2">@Strings.SlotOpt2</listEntry>
+            <listEntry value="3">@Strings.SlotOpt3</listEntry>
+            <listEntry value="12">@Strings.SlotOpt12</listEntry>
+            <listEntry value="4">@Strings.SlotOpt4</listEntry>
+            <listEntry value="6">@Strings.SlotOpt6</listEntry>
+            <listEntry value="7">@Strings.SlotOpt7</listEntry>
+            <listEntry value="8">@Strings.SlotOpt8</listEntry>
+            <listEntry value="9">@Strings.SlotOpt9</listEntry>
+            <listEntry value="10">@Strings.SlotOpt10</listEntry>
+            <listEntry value="11">@Strings.SlotOpt11</listEntry>
+            <listEntry value="13">@Strings.SlotOpt13</listEntry>
+            <listEntry value="14">@Strings.SlotOpt14</listEntry>
+            <listEntry value="15">@Strings.SlotOpt15</listEntry>
+            <listEntry value="5">@Strings.SlotOpt5</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.DialText" title="@Strings.DialTextTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.SlotOpt0</listEntry>
+            <listEntry value="1">@Strings.SlotOpt1</listEntry>
+            <listEntry value="2">@Strings.SlotOpt2</listEntry>
+            <listEntry value="3">@Strings.SlotOpt3</listEntry>
+            <listEntry value="12">@Strings.SlotOpt12</listEntry>
+            <listEntry value="4">@Strings.SlotOpt4</listEntry>
+            <listEntry value="6">@Strings.SlotOpt6</listEntry>
+            <listEntry value="7">@Strings.SlotOpt7</listEntry>
+            <listEntry value="8">@Strings.SlotOpt8</listEntry>
+            <listEntry value="9">@Strings.SlotOpt9</listEntry>
+            <listEntry value="10">@Strings.SlotOpt10</listEntry>
+            <listEntry value="11">@Strings.SlotOpt11</listEntry>
+            <listEntry value="13">@Strings.SlotOpt13</listEntry>
+            <listEntry value="14">@Strings.SlotOpt14</listEntry>
+            <listEntry value="15">@Strings.SlotOpt15</listEntry>
+            <listEntry value="5">@Strings.SlotOpt5</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.TapToOpen" title="@Strings.TapToOpenTitle">
+        <settingConfig type="boolean"/>
+    </setting>
+    <setting propertyKey="@Properties.TimeCorrect" title="@Strings.TimeCorrectTitle">
+        <settingConfig type="boolean"/>
+    </setting>
+    <setting propertyKey="@Properties.City" title="@Strings.CityTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.CityOpt0</listEntry>
+            <listEntry value="1">@Strings.CityOpt1</listEntry>
+            <listEntry value="2">@Strings.CityOpt2</listEntry>
+            <listEntry value="3">@Strings.CityOpt3</listEntry>
+            <listEntry value="4">@Strings.CityOpt4</listEntry>
+            <listEntry value="5">@Strings.CityOpt5</listEntry>
+            <listEntry value="6">@Strings.CityOpt6</listEntry>
+            <listEntry value="7">@Strings.CityOpt7</listEntry>
+            <listEntry value="8">@Strings.CityOpt8</listEntry>
+            <listEntry value="9">@Strings.CityOpt9</listEntry>
+            <listEntry value="10">@Strings.CityOpt10</listEntry>
+            <listEntry value="11">@Strings.CityOpt11</listEntry>
+            <listEntry value="12">@Strings.CityOpt12</listEntry>
+            <listEntry value="13">@Strings.CityOpt13</listEntry>
+            <listEntry value="14">@Strings.CityOpt14</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.CityLat" title="@Strings.CityLatTitle">
+        <settingConfig type="numeric" min="-90" max="90"/>
+    </setting>
+    <setting propertyKey="@Properties.CityLon" title="@Strings.CityLonTitle">
+        <settingConfig type="numeric" min="-180" max="180"/>
+    </setting>
+    <setting propertyKey="@Properties.TempSource" title="@Strings.TempSourceTitle">
+        <settingConfig type="list">
+            <listEntry value="3">@Strings.TempSourceOpt3</listEntry>
+            <listEntry value="0">@Strings.TempSourceOpt0</listEntry>
+            <listEntry value="1">@Strings.TempSourceOpt1</listEntry>
+            <listEntry value="2">@Strings.TempSourceOpt2</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.ShowSeconds" title="@Strings.ShowSecondsTitle">
+        <settingConfig type="boolean"/>
+    </setting>
+    <setting propertyKey="@Properties.ShowMinuteTicks" title="@Strings.ShowMinuteTicksTitle">
+        <settingConfig type="boolean"/>
+    </setting>
+    <setting propertyKey="@Properties.BatteryMode" title="@Strings.BatteryModeTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.BatteryModeOpt0</listEntry>
+            <listEntry value="1">@Strings.BatteryModeOpt1</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.CalorieGoal" title="@Strings.CalorieGoalTitle">
+        <settingConfig type="numeric" min="500" max="10000"/>
+    </setting>
+    <setting propertyKey="@Properties.HomeOffset" title="@Strings.HomeOffsetTitle">
+        <settingConfig type="numeric" min="-12" max="14"/>
+    </setting>
+    <setting propertyKey="@Properties.HomeDst" title="@Strings.HomeDstTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.HomeDstOpt0</listEntry>
+            <listEntry value="1">@Strings.HomeDstOpt1</listEntry>
+            <listEntry value="2">@Strings.HomeDstOpt2</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.Tz2Hand" title="@Strings.Tz2HandTitle">
+        <settingConfig type="boolean"/>
+    </setting>
+    <setting propertyKey="@Properties.Tz2HandColor" title="@Strings.Tz2HandColorTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.Tz2HandColorOpt0</listEntry>
+            <listEntry value="1">@Strings.Tz2HandColorOpt1</listEntry>
+            <listEntry value="2">@Strings.Tz2HandColorOpt2</listEntry>
+            <listEntry value="3">@Strings.Tz2HandColorOpt3</listEntry>
+            <listEntry value="4">@Strings.Tz2HandColorOpt4</listEntry>
+            <listEntry value="5">@Strings.Tz2HandColorOpt5</listEntry>
+            <listEntry value="6">@Strings.Tz2HandColorOpt6</listEntry>
+            <listEntry value="7">@Strings.Tz2HandColorOpt7</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.Tz2Label" title="@Strings.Tz2LabelTitle">
+        <settingConfig type="alphaNumeric" maxLength="4"/>
+    </setting>
+    <setting propertyKey="@Properties.Tz2Offset" title="@Strings.Tz2OffsetTitle">
+        <settingConfig type="numeric" min="-12" max="14"/>
+    </setting>
+    <setting propertyKey="@Properties.Tz2Dst" title="@Strings.Tz2DstTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.Tz2DstOpt0</listEntry>
+            <listEntry value="1">@Strings.Tz2DstOpt1</listEntry>
+            <listEntry value="2">@Strings.Tz2DstOpt2</listEntry>
+        </settingConfig>
+    </setting>
+</settings>

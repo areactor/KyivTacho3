@@ -1,0 +1,1713 @@
+{
+  "settings" : [ {
+    "key" : "Preset",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "PresetTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "PresetOpt0",
+      "value" : 0
+    }, {
+      "display" : "PresetOpt1",
+      "value" : 1
+    }, {
+      "display" : "PresetOpt2",
+      "value" : 2
+    }, {
+      "display" : "PresetOpt3",
+      "value" : 3
+    }, {
+      "display" : "PresetOpt4",
+      "value" : 4
+    }, {
+      "display" : "PresetOpt5",
+      "value" : 5
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "Theme",
+    "valueType" : "number",
+    "defaultValue" : 1,
+    "configTitle" : "ThemeTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "ThemeOpt0",
+      "value" : 0
+    }, {
+      "display" : "ThemeOpt1",
+      "value" : 1
+    }, {
+      "display" : "ThemeOpt2",
+      "value" : 2
+    }, {
+      "display" : "ThemeOpt3",
+      "value" : 3
+    }, {
+      "display" : "ThemeOpt4",
+      "value" : 4
+    }, {
+      "display" : "ThemeOpt5",
+      "value" : 5
+    }, {
+      "display" : "ThemeOpt6",
+      "value" : 6
+    }, {
+      "display" : "ThemeOpt7",
+      "value" : 7
+    }, {
+      "display" : "ThemeOpt8",
+      "value" : 8
+    }, {
+      "display" : "ThemeOpt9",
+      "value" : 9
+    }, {
+      "display" : "ThemeOpt10",
+      "value" : 10
+    }, {
+      "display" : "ThemeOpt11",
+      "value" : 11
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "Pattern",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "PatternTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "PatternOpt0",
+      "value" : 0
+    }, {
+      "display" : "PatternOpt1",
+      "value" : 1
+    }, {
+      "display" : "PatternOpt2",
+      "value" : 2
+    }, {
+      "display" : "PatternOpt3",
+      "value" : 3
+    }, {
+      "display" : "PatternOpt4",
+      "value" : 4
+    }, {
+      "display" : "PatternOpt5",
+      "value" : 5
+    }, {
+      "display" : "PatternOpt6",
+      "value" : 6
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "PatternContrast",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "PatternContrastTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "PatternContrastOpt0",
+      "value" : 0
+    }, {
+      "display" : "PatternContrastOpt1",
+      "value" : 1
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "PixelSize",
+    "valueType" : "number",
+    "defaultValue" : 3,
+    "configTitle" : "PixelSizeTitle",
+    "configPrompt" : null,
+    "configType" : "numeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : 1,
+    "configMax" : 8,
+    "configMaxLength" : null
+  }, {
+    "key" : "NumeralStyle",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "NumeralStyleTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "NumeralStyleOpt0",
+      "value" : 0
+    }, {
+      "display" : "NumeralStyleOpt1",
+      "value" : 1
+    }, {
+      "display" : "NumeralStyleOpt2",
+      "value" : 2
+    }, {
+      "display" : "NumeralStyleOpt3",
+      "value" : 3
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "RingMode",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "RingModeTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "RingModeOpt0",
+      "value" : 0
+    }, {
+      "display" : "RingModeOpt1",
+      "value" : 1
+    }, {
+      "display" : "RingModeOpt2",
+      "value" : 2
+    }, {
+      "display" : "RingModeOpt3",
+      "value" : 3
+    }, {
+      "display" : "RingModeOpt4",
+      "value" : 4
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "SunMarks",
+    "valueType" : "number",
+    "defaultValue" : 1,
+    "configTitle" : "SunMarksTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "SunMarksOpt0",
+      "value" : 0
+    }, {
+      "display" : "SunMarksOpt1",
+      "value" : 1
+    }, {
+      "display" : "SunMarksOpt2",
+      "value" : 2
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "LumeColor",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "LumeColorTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "LumeColorOpt0",
+      "value" : 0
+    }, {
+      "display" : "LumeColorOpt1",
+      "value" : 1
+    }, {
+      "display" : "LumeColorOpt2",
+      "value" : 2
+    }, {
+      "display" : "LumeColorOpt3",
+      "value" : 3
+    }, {
+      "display" : "LumeColorOpt4",
+      "value" : 4
+    }, {
+      "display" : "LumeColorOpt5",
+      "value" : 5
+    }, {
+      "display" : "LumeColorOpt6",
+      "value" : 6
+    }, {
+      "display" : "LumeColorOpt7",
+      "value" : 7
+    }, {
+      "display" : "LumeColorOpt8",
+      "value" : 8
+    }, {
+      "display" : "LumeColorOpt9",
+      "value" : 9
+    }, {
+      "display" : "LumeColorOpt10",
+      "value" : 10
+    }, {
+      "display" : "LumeColorOpt11",
+      "value" : 11
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "Accent",
+    "valueType" : "number",
+    "defaultValue" : 1,
+    "configTitle" : "AccentTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "AccentOpt0",
+      "value" : 0
+    }, {
+      "display" : "AccentOpt1",
+      "value" : 1
+    }, {
+      "display" : "AccentOpt2",
+      "value" : 2
+    }, {
+      "display" : "AccentOpt3",
+      "value" : 3
+    }, {
+      "display" : "AccentOpt4",
+      "value" : 4
+    }, {
+      "display" : "AccentOpt5",
+      "value" : 5
+    }, {
+      "display" : "AccentOpt6",
+      "value" : 6
+    }, {
+      "display" : "AccentOpt7",
+      "value" : 7
+    }, {
+      "display" : "AccentOpt8",
+      "value" : 8
+    }, {
+      "display" : "AccentOpt9",
+      "value" : 9
+    }, {
+      "display" : "AccentOpt10",
+      "value" : 10
+    }, {
+      "display" : "AccentOpt11",
+      "value" : 11
+    }, {
+      "display" : "AccentOpt12",
+      "value" : 12
+    }, {
+      "display" : "AccentOpt13",
+      "value" : 13
+    }, {
+      "display" : "AccentOpt14",
+      "value" : 14
+    }, {
+      "display" : "AccentOpt15",
+      "value" : 15
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "TextColor",
+    "valueType" : "number",
+    "defaultValue" : 1,
+    "configTitle" : "TextColorTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "TextColorOpt0",
+      "value" : 0
+    }, {
+      "display" : "TextColorOpt1",
+      "value" : 1
+    }, {
+      "display" : "TextColorOpt2",
+      "value" : 2
+    }, {
+      "display" : "TextColorOpt3",
+      "value" : 3
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "SecondsColor",
+    "valueType" : "number",
+    "defaultValue" : 1,
+    "configTitle" : "SecondsColorTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "SecondsColorOpt0",
+      "value" : 0
+    }, {
+      "display" : "SecondsColorOpt1",
+      "value" : 1
+    }, {
+      "display" : "SecondsColorOpt2",
+      "value" : 2
+    }, {
+      "display" : "SecondsColorOpt3",
+      "value" : 3
+    }, {
+      "display" : "SecondsColorOpt4",
+      "value" : 4
+    }, {
+      "display" : "SecondsColorOpt5",
+      "value" : 5
+    }, {
+      "display" : "SecondsColorOpt6",
+      "value" : 6
+    }, {
+      "display" : "SecondsColorOpt7",
+      "value" : 7
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "HandStyle",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "HandStyleTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "HandStyleOpt0",
+      "value" : 0
+    }, {
+      "display" : "HandStyleOpt1",
+      "value" : 1
+    }, {
+      "display" : "HandStyleOpt2",
+      "value" : 2
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "FontStyle",
+    "valueType" : "number",
+    "defaultValue" : 7,
+    "configTitle" : "FontStyleTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "FontStyleOpt0",
+      "value" : 0
+    }, {
+      "display" : "FontStyleOpt1",
+      "value" : 1
+    }, {
+      "display" : "FontStyleOpt2",
+      "value" : 2
+    }, {
+      "display" : "FontStyleOpt3",
+      "value" : 3
+    }, {
+      "display" : "FontStyleOpt4",
+      "value" : 4
+    }, {
+      "display" : "FontStyleOpt5",
+      "value" : 5
+    }, {
+      "display" : "FontStyleOpt6",
+      "value" : 6
+    }, {
+      "display" : "FontStyleOpt7",
+      "value" : 7
+    }, {
+      "display" : "FontStyleOpt8",
+      "value" : 8
+    }, {
+      "display" : "FontStyleOpt9",
+      "value" : 9
+    }, {
+      "display" : "FontStyleOpt10",
+      "value" : 10
+    }, {
+      "display" : "FontStyleOpt11",
+      "value" : 11
+    }, {
+      "display" : "FontStyleOpt12",
+      "value" : 12
+    }, {
+      "display" : "FontStyleOpt13",
+      "value" : 13
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "LabelStyle",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "LabelStyleTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "LabelStyleOpt0",
+      "value" : 0
+    }, {
+      "display" : "LabelStyleOpt1",
+      "value" : 1
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "DialLabel",
+    "valueType" : "string",
+    "defaultValue" : "KYIV",
+    "configTitle" : "DialLabelTitle",
+    "configPrompt" : null,
+    "configType" : "alphaNumeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : 12
+  }, {
+    "key" : "DialLabel2",
+    "valueType" : "string",
+    "defaultValue" : "",
+    "configTitle" : "DialLabel2Title",
+    "configPrompt" : null,
+    "configType" : "alphaNumeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : 12
+  }, {
+    "key" : "DialLabel3",
+    "valueType" : "string",
+    "defaultValue" : "",
+    "configTitle" : "DialLabel3Title",
+    "configPrompt" : null,
+    "configType" : "alphaNumeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : 12
+  }, {
+    "key" : "HubStyle",
+    "valueType" : "number",
+    "defaultValue" : 1,
+    "configTitle" : "HubStyleTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "HubStyleOpt0",
+      "value" : 0
+    }, {
+      "display" : "HubStyleOpt1",
+      "value" : 1
+    }, {
+      "display" : "HubStyleOpt2",
+      "value" : 2
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "StatusIcons",
+    "valueType" : "number",
+    "defaultValue" : 1,
+    "configTitle" : "StatusIconsTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "StatusIconsOpt0",
+      "value" : 0
+    }, {
+      "display" : "StatusIconsOpt1",
+      "value" : 1
+    }, {
+      "display" : "StatusIconsOpt2",
+      "value" : 2
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "ShowFrames",
+    "valueType" : "boolean",
+    "defaultValue" : false,
+    "configTitle" : "ShowFramesTitle",
+    "configPrompt" : null,
+    "configType" : "boolean",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "DateNeighbors",
+    "valueType" : "boolean",
+    "defaultValue" : true,
+    "configTitle" : "DateNeighborsTitle",
+    "configPrompt" : null,
+    "configType" : "boolean",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "TextScale",
+    "valueType" : "number",
+    "defaultValue" : 90,
+    "configTitle" : "TextScaleTitle",
+    "configPrompt" : null,
+    "configType" : "numeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : 50,
+    "configMax" : 200,
+    "configMaxLength" : null
+  }, {
+    "key" : "HandScale",
+    "valueType" : "number",
+    "defaultValue" : 100,
+    "configTitle" : "HandScaleTitle",
+    "configPrompt" : null,
+    "configType" : "numeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : 50,
+    "configMax" : 160,
+    "configMaxLength" : null
+  }, {
+    "key" : "MarkerScale",
+    "valueType" : "number",
+    "defaultValue" : 100,
+    "configTitle" : "MarkerScaleTitle",
+    "configPrompt" : null,
+    "configType" : "numeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : 50,
+    "configMax" : 160,
+    "configMaxLength" : null
+  }, {
+    "key" : "SubdialScale",
+    "valueType" : "number",
+    "defaultValue" : 100,
+    "configTitle" : "SubdialScaleTitle",
+    "configPrompt" : null,
+    "configType" : "numeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : 50,
+    "configMax" : 140,
+    "configMaxLength" : null
+  }, {
+    "key" : "SlotTop",
+    "valueType" : "number",
+    "defaultValue" : 5,
+    "configTitle" : "SlotTopTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "SlotOpt0",
+      "value" : 0
+    }, {
+      "display" : "SlotOpt1",
+      "value" : 1
+    }, {
+      "display" : "SlotOpt2",
+      "value" : 2
+    }, {
+      "display" : "SlotOpt3",
+      "value" : 3
+    }, {
+      "display" : "SlotOpt12",
+      "value" : 12
+    }, {
+      "display" : "SlotOpt4",
+      "value" : 4
+    }, {
+      "display" : "SlotOpt6",
+      "value" : 6
+    }, {
+      "display" : "SlotOpt7",
+      "value" : 7
+    }, {
+      "display" : "SlotOpt8",
+      "value" : 8
+    }, {
+      "display" : "SlotOpt9",
+      "value" : 9
+    }, {
+      "display" : "SlotOpt10",
+      "value" : 10
+    }, {
+      "display" : "SlotOpt11",
+      "value" : 11
+    }, {
+      "display" : "SlotOpt13",
+      "value" : 13
+    }, {
+      "display" : "SlotOpt14",
+      "value" : 14
+    }, {
+      "display" : "SlotOpt15",
+      "value" : 15
+    }, {
+      "display" : "SlotOpt5",
+      "value" : 5
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "SlotLeft",
+    "valueType" : "number",
+    "defaultValue" : 4,
+    "configTitle" : "SlotLeftTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "SlotOpt0",
+      "value" : 0
+    }, {
+      "display" : "SlotOpt1",
+      "value" : 1
+    }, {
+      "display" : "SlotOpt2",
+      "value" : 2
+    }, {
+      "display" : "SlotOpt3",
+      "value" : 3
+    }, {
+      "display" : "SlotOpt12",
+      "value" : 12
+    }, {
+      "display" : "SlotOpt4",
+      "value" : 4
+    }, {
+      "display" : "SlotOpt6",
+      "value" : 6
+    }, {
+      "display" : "SlotOpt7",
+      "value" : 7
+    }, {
+      "display" : "SlotOpt8",
+      "value" : 8
+    }, {
+      "display" : "SlotOpt9",
+      "value" : 9
+    }, {
+      "display" : "SlotOpt10",
+      "value" : 10
+    }, {
+      "display" : "SlotOpt11",
+      "value" : 11
+    }, {
+      "display" : "SlotOpt13",
+      "value" : 13
+    }, {
+      "display" : "SlotOpt14",
+      "value" : 14
+    }, {
+      "display" : "SlotOpt15",
+      "value" : 15
+    }, {
+      "display" : "SlotOpt5",
+      "value" : 5
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "SlotRight",
+    "valueType" : "number",
+    "defaultValue" : 1,
+    "configTitle" : "SlotRightTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "SlotOpt0",
+      "value" : 0
+    }, {
+      "display" : "SlotOpt1",
+      "value" : 1
+    }, {
+      "display" : "SlotOpt2",
+      "value" : 2
+    }, {
+      "display" : "SlotOpt3",
+      "value" : 3
+    }, {
+      "display" : "SlotOpt12",
+      "value" : 12
+    }, {
+      "display" : "SlotOpt4",
+      "value" : 4
+    }, {
+      "display" : "SlotOpt6",
+      "value" : 6
+    }, {
+      "display" : "SlotOpt7",
+      "value" : 7
+    }, {
+      "display" : "SlotOpt8",
+      "value" : 8
+    }, {
+      "display" : "SlotOpt9",
+      "value" : 9
+    }, {
+      "display" : "SlotOpt10",
+      "value" : 10
+    }, {
+      "display" : "SlotOpt11",
+      "value" : 11
+    }, {
+      "display" : "SlotOpt13",
+      "value" : 13
+    }, {
+      "display" : "SlotOpt14",
+      "value" : 14
+    }, {
+      "display" : "SlotOpt15",
+      "value" : 15
+    }, {
+      "display" : "SlotOpt5",
+      "value" : 5
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "Window9",
+    "valueType" : "number",
+    "defaultValue" : 5,
+    "configTitle" : "Window9Title",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "SlotOpt0",
+      "value" : 0
+    }, {
+      "display" : "SlotOpt1",
+      "value" : 1
+    }, {
+      "display" : "SlotOpt2",
+      "value" : 2
+    }, {
+      "display" : "SlotOpt3",
+      "value" : 3
+    }, {
+      "display" : "SlotOpt12",
+      "value" : 12
+    }, {
+      "display" : "SlotOpt4",
+      "value" : 4
+    }, {
+      "display" : "SlotOpt6",
+      "value" : 6
+    }, {
+      "display" : "SlotOpt7",
+      "value" : 7
+    }, {
+      "display" : "SlotOpt8",
+      "value" : 8
+    }, {
+      "display" : "SlotOpt9",
+      "value" : 9
+    }, {
+      "display" : "SlotOpt10",
+      "value" : 10
+    }, {
+      "display" : "SlotOpt11",
+      "value" : 11
+    }, {
+      "display" : "SlotOpt13",
+      "value" : 13
+    }, {
+      "display" : "SlotOpt14",
+      "value" : 14
+    }, {
+      "display" : "SlotOpt15",
+      "value" : 15
+    }, {
+      "display" : "SlotOpt5",
+      "value" : 5
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "Window3",
+    "valueType" : "number",
+    "defaultValue" : 10,
+    "configTitle" : "Window3Title",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "SlotOpt0",
+      "value" : 0
+    }, {
+      "display" : "SlotOpt1",
+      "value" : 1
+    }, {
+      "display" : "SlotOpt2",
+      "value" : 2
+    }, {
+      "display" : "SlotOpt3",
+      "value" : 3
+    }, {
+      "display" : "SlotOpt12",
+      "value" : 12
+    }, {
+      "display" : "SlotOpt4",
+      "value" : 4
+    }, {
+      "display" : "SlotOpt6",
+      "value" : 6
+    }, {
+      "display" : "SlotOpt7",
+      "value" : 7
+    }, {
+      "display" : "SlotOpt8",
+      "value" : 8
+    }, {
+      "display" : "SlotOpt9",
+      "value" : 9
+    }, {
+      "display" : "SlotOpt10",
+      "value" : 10
+    }, {
+      "display" : "SlotOpt11",
+      "value" : 11
+    }, {
+      "display" : "SlotOpt13",
+      "value" : 13
+    }, {
+      "display" : "SlotOpt14",
+      "value" : 14
+    }, {
+      "display" : "SlotOpt15",
+      "value" : 15
+    }, {
+      "display" : "SlotOpt5",
+      "value" : 5
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "Window6",
+    "valueType" : "number",
+    "defaultValue" : 5,
+    "configTitle" : "Window6Title",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "SlotOpt0",
+      "value" : 0
+    }, {
+      "display" : "SlotOpt1",
+      "value" : 1
+    }, {
+      "display" : "SlotOpt2",
+      "value" : 2
+    }, {
+      "display" : "SlotOpt3",
+      "value" : 3
+    }, {
+      "display" : "SlotOpt12",
+      "value" : 12
+    }, {
+      "display" : "SlotOpt4",
+      "value" : 4
+    }, {
+      "display" : "SlotOpt6",
+      "value" : 6
+    }, {
+      "display" : "SlotOpt7",
+      "value" : 7
+    }, {
+      "display" : "SlotOpt8",
+      "value" : 8
+    }, {
+      "display" : "SlotOpt9",
+      "value" : 9
+    }, {
+      "display" : "SlotOpt10",
+      "value" : 10
+    }, {
+      "display" : "SlotOpt11",
+      "value" : 11
+    }, {
+      "display" : "SlotOpt13",
+      "value" : 13
+    }, {
+      "display" : "SlotOpt14",
+      "value" : 14
+    }, {
+      "display" : "SlotOpt15",
+      "value" : 15
+    }, {
+      "display" : "SlotOpt5",
+      "value" : 5
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "DialText",
+    "valueType" : "number",
+    "defaultValue" : 5,
+    "configTitle" : "DialTextTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "SlotOpt0",
+      "value" : 0
+    }, {
+      "display" : "SlotOpt1",
+      "value" : 1
+    }, {
+      "display" : "SlotOpt2",
+      "value" : 2
+    }, {
+      "display" : "SlotOpt3",
+      "value" : 3
+    }, {
+      "display" : "SlotOpt12",
+      "value" : 12
+    }, {
+      "display" : "SlotOpt4",
+      "value" : 4
+    }, {
+      "display" : "SlotOpt6",
+      "value" : 6
+    }, {
+      "display" : "SlotOpt7",
+      "value" : 7
+    }, {
+      "display" : "SlotOpt8",
+      "value" : 8
+    }, {
+      "display" : "SlotOpt9",
+      "value" : 9
+    }, {
+      "display" : "SlotOpt10",
+      "value" : 10
+    }, {
+      "display" : "SlotOpt11",
+      "value" : 11
+    }, {
+      "display" : "SlotOpt13",
+      "value" : 13
+    }, {
+      "display" : "SlotOpt14",
+      "value" : 14
+    }, {
+      "display" : "SlotOpt15",
+      "value" : 15
+    }, {
+      "display" : "SlotOpt5",
+      "value" : 5
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "TapToOpen",
+    "valueType" : "boolean",
+    "defaultValue" : true,
+    "configTitle" : "TapToOpenTitle",
+    "configPrompt" : null,
+    "configType" : "boolean",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "TimeCorrect",
+    "valueType" : "boolean",
+    "defaultValue" : false,
+    "configTitle" : "TimeCorrectTitle",
+    "configPrompt" : null,
+    "configType" : "boolean",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "City",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "CityTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "CityOpt0",
+      "value" : 0
+    }, {
+      "display" : "CityOpt1",
+      "value" : 1
+    }, {
+      "display" : "CityOpt2",
+      "value" : 2
+    }, {
+      "display" : "CityOpt3",
+      "value" : 3
+    }, {
+      "display" : "CityOpt4",
+      "value" : 4
+    }, {
+      "display" : "CityOpt5",
+      "value" : 5
+    }, {
+      "display" : "CityOpt6",
+      "value" : 6
+    }, {
+      "display" : "CityOpt7",
+      "value" : 7
+    }, {
+      "display" : "CityOpt8",
+      "value" : 8
+    }, {
+      "display" : "CityOpt9",
+      "value" : 9
+    }, {
+      "display" : "CityOpt10",
+      "value" : 10
+    }, {
+      "display" : "CityOpt11",
+      "value" : 11
+    }, {
+      "display" : "CityOpt12",
+      "value" : 12
+    }, {
+      "display" : "CityOpt13",
+      "value" : 13
+    }, {
+      "display" : "CityOpt14",
+      "value" : 14
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "CityLat",
+    "valueType" : "float",
+    "defaultValue" : 50.45,
+    "configTitle" : "CityLatTitle",
+    "configPrompt" : null,
+    "configType" : "numeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : -90.0,
+    "configMax" : 90.0,
+    "configMaxLength" : null
+  }, {
+    "key" : "CityLon",
+    "valueType" : "float",
+    "defaultValue" : 30.52,
+    "configTitle" : "CityLonTitle",
+    "configPrompt" : null,
+    "configType" : "numeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : -180.0,
+    "configMax" : 180.0,
+    "configMaxLength" : null
+  }, {
+    "key" : "TempSource",
+    "valueType" : "number",
+    "defaultValue" : 2,
+    "configTitle" : "TempSourceTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "TempSourceOpt0",
+      "value" : 0
+    }, {
+      "display" : "TempSourceOpt1",
+      "value" : 1
+    }, {
+      "display" : "TempSourceOpt2",
+      "value" : 2
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "ShowSeconds",
+    "valueType" : "boolean",
+    "defaultValue" : true,
+    "configTitle" : "ShowSecondsTitle",
+    "configPrompt" : null,
+    "configType" : "boolean",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "ShowMinuteTicks",
+    "valueType" : "boolean",
+    "defaultValue" : true,
+    "configTitle" : "ShowMinuteTicksTitle",
+    "configPrompt" : null,
+    "configType" : "boolean",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "BatteryMode",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "BatteryModeTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "BatteryModeOpt0",
+      "value" : 0
+    }, {
+      "display" : "BatteryModeOpt1",
+      "value" : 1
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "CalorieGoal",
+    "valueType" : "number",
+    "defaultValue" : 2500,
+    "configTitle" : "CalorieGoalTitle",
+    "configPrompt" : null,
+    "configType" : "numeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : 500,
+    "configMax" : 10000,
+    "configMaxLength" : null
+  }, {
+    "key" : "HomeOffset",
+    "valueType" : "number",
+    "defaultValue" : 2,
+    "configTitle" : "HomeOffsetTitle",
+    "configPrompt" : null,
+    "configType" : "numeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : -12,
+    "configMax" : 14,
+    "configMaxLength" : null
+  }, {
+    "key" : "HomeDst",
+    "valueType" : "number",
+    "defaultValue" : 1,
+    "configTitle" : "HomeDstTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "HomeDstOpt0",
+      "value" : 0
+    }, {
+      "display" : "HomeDstOpt1",
+      "value" : 1
+    }, {
+      "display" : "HomeDstOpt2",
+      "value" : 2
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "Tz2Hand",
+    "valueType" : "boolean",
+    "defaultValue" : true,
+    "configTitle" : "Tz2HandTitle",
+    "configPrompt" : null,
+    "configType" : "boolean",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "Tz2HandColor",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "Tz2HandColorTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "Tz2HandColorOpt0",
+      "value" : 0
+    }, {
+      "display" : "Tz2HandColorOpt1",
+      "value" : 1
+    }, {
+      "display" : "Tz2HandColorOpt2",
+      "value" : 2
+    }, {
+      "display" : "Tz2HandColorOpt3",
+      "value" : 3
+    }, {
+      "display" : "Tz2HandColorOpt4",
+      "value" : 4
+    }, {
+      "display" : "Tz2HandColorOpt5",
+      "value" : 5
+    }, {
+      "display" : "Tz2HandColorOpt6",
+      "value" : 6
+    }, {
+      "display" : "Tz2HandColorOpt7",
+      "value" : 7
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "Tz2Label",
+    "valueType" : "string",
+    "defaultValue" : "NY",
+    "configTitle" : "Tz2LabelTitle",
+    "configPrompt" : null,
+    "configType" : "alphaNumeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : 4
+  }, {
+    "key" : "Tz2Offset",
+    "valueType" : "number",
+    "defaultValue" : -5,
+    "configTitle" : "Tz2OffsetTitle",
+    "configPrompt" : null,
+    "configType" : "numeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : -12,
+    "configMax" : 14,
+    "configMaxLength" : null
+  }, {
+    "key" : "Tz2Dst",
+    "valueType" : "number",
+    "defaultValue" : 2,
+    "configTitle" : "Tz2DstTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "Tz2DstOpt0",
+      "value" : 0
+    }, {
+      "display" : "Tz2DstOpt1",
+      "value" : 1
+    }, {
+      "display" : "Tz2DstOpt2",
+      "value" : 2
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  } ],
+  "supportsLiveValidation" : false,
+  "languages" : {
+    "valyrian" : {
+      "StatusIconsTitle" : "Status icons",
+      "SlotOpt1" : "Steps",
+      "SlotOpt2" : "Calories",
+      "SlotOpt3" : "Temperature",
+      "SlotOpt4" : "Battery",
+      "SlotOpt0" : "Heart rate",
+      "PresetOpt5" : "Petrol tacho",
+      "PresetOpt4" : "Minimal dark",
+      "Tz2HandColorOpt7" : "White",
+      "TempSourceOpt1" : "Watch sensor",
+      "Tz2HandColorOpt6" : "Cyan",
+      "SubdialScaleTitle" : "Size: mini gauges (%)",
+      "TempSourceOpt0" : "Phone weather",
+      "Tz2HandColorOpt5" : "Red",
+      "Tz2HandColorOpt4" : "Green",
+      "TempSourceOpt2" : "Chosen city (internet)",
+      "Tz2HandColorOpt3" : "Yellow",
+      "Tz2HandColorOpt2" : "Orange",
+      "TextScaleTitle" : "Size: text (%)",
+      "Tz2HandColorOpt1" : "Blue",
+      "Tz2HandColorOpt0" : "Accent",
+      "RingModeOpt3" : "Step goal",
+      "RingModeOpt2" : "Battery",
+      "RingModeOpt1" : "Minutes of the hour",
+      "RingModeOpt0" : "Redline (50 to 60 min)",
+      "RingModeOpt4" : "Off",
+      "DialLabelTitle" : "Dial text line 1 (empty = none)",
+      "PatternContrastOpt1" : "Strong",
+      "SlotOpt9" : "Notifications",
+      "DialTextTitle" : "Small text under top gauge",
+      "SlotOpt5" : "Off",
+      "SlotOpt6" : "Solar intensity",
+      "SlotOpt7" : "Body Battery",
+      "SlotOpt8" : "Stress",
+      "PatternContrastOpt0" : "Subtle",
+      "HandStyleOpt2" : "Sword",
+      "HandStyleOpt1" : "Baton",
+      "SunMarksOpt2" : "Marks + times",
+      "HomeDstOpt0" : "None",
+      "SunMarksOpt1" : "Marks",
+      "HomeDstOpt2" : "US rule (New York)",
+      "HomeDstOpt1" : "EU rule (Kyiv, Europe)",
+      "SecondsColorTitle" : "Seconds needle and redline colour",
+      "DialLabel2Title" : "Dial text line 2",
+      "SunMarksOpt0" : "Off",
+      "CityLonTitle" : "Custom city longitude",
+      "NumeralStyleOpt3" : "None",
+      "NumeralStyleOpt2" : "Minutes (5 to 60)",
+      "PresetTitle" : "Ready-made look",
+      "NumeralStyleOpt1" : "12, 3, 6, 9 only",
+      "NumeralStyleOpt0" : "1 to 12",
+      "TapToOpenTitle" : "Tap a field to open its Garmin widget",
+      "HandStyleOpt0" : "Needle",
+      "HubStyleOpt0" : "Nothing",
+      "HubStyleOpt1" : "Small dot",
+      "HubStyleOpt2" : "Ring (instrument hub)",
+      "PatternOpt2" : "Grid",
+      "PatternOpt1" : "Waves",
+      "BatteryModeOpt1" : "Days left",
+      "PatternOpt0" : "Off",
+      "BatteryModeOpt0" : "Percent",
+      "PatternOpt6" : "Diagonal",
+      "PatternOpt5" : "Bubbles",
+      "PatternOpt4" : "Dots",
+      "PatternOpt3" : "Checker",
+      "SlotLeftTitle" : "Left gauge",
+      "Tz2DstTitle" : "Second zone: summer time",
+      "BatteryModeTitle" : "Battery shows",
+      "Window9Title" : "Window at 9",
+      "DateNeighborsTitle" : "Date: show yesterday and tomorrow",
+      "ThemeTitle" : "Dial colour",
+      "HomeDstTitle" : "Main time: summer time",
+      "PixelSizeTitle" : "Pattern pixel size (px)",
+      "PresetOpt1" : "Retro cream gauge",
+      "PresetOpt0" : "Custom (use settings below)",
+      "PresetOpt3" : "White sport",
+      "PresetOpt2" : "Amber night",
+      "TimeCorrectTitle" : "Correct the time from an internet server",
+      "ShowSecondsTitle" : "Show seconds needle",
+      "HubStyleTitle" : "Centre of the hands",
+      "FontStyleTitle" : "Font",
+      "FontStyleOpt13" : "Tall gauge (Teko)",
+      "FontStyleOpt12" : "Squarish (Rajdhani)",
+      "TextColorOpt0" : "Silver",
+      "FontStyleOpt11" : "Techno (Orbitron)",
+      "Tz2LabelTitle" : "Second zone label",
+      "FontStyleOpt10" : "Condensed (Oswald)",
+      "Window3Title" : "Window at 3",
+      "TextColorOpt2" : "Same as hands",
+      "LabelStyleOpt1" : "Text",
+      "TextColorOpt1" : "White",
+      "LabelStyleOpt0" : "Pixel icons",
+      "TextColorOpt3" : "Accent",
+      "SlotRightTitle" : "Right gauge",
+      "CityOpt9" : "Ivano-Frankivsk",
+      "CityOpt8" : "Uzhhorod",
+      "FontStyleOpt0" : "System",
+      "LumeColorOpt3" : "Orange",
+      "CityOpt5" : "Zaporizhzhia",
+      "LumeColorOpt4" : "Yellow",
+      "CityOpt4" : "Dnipro",
+      "LumeColorOpt1" : "Ice blue",
+      "CityOpt7" : "Chernihiv",
+      "CalorieGoalTitle" : "Calorie goal (for gauge)",
+      "LumeColorOpt2" : "Silver",
+      "CityOpt6" : "Vinnytsia",
+      "SlotOpt12" : "Weather (chosen city)",
+      "LumeColorOpt7" : "Red",
+      "CityOpt1" : "Lviv",
+      "SlotOpt13" : "Sunrise",
+      "LumeColorOpt8" : "Green",
+      "CityOpt0" : "Kyiv",
+      "SlotOpt10" : "Date",
+      "LumeColorOpt5" : "Aqua",
+      "CityOpt3" : "Kharkiv",
+      "SlotOpt11" : "Second time zone",
+      "LumeColorOpt6" : "Amber",
+      "CityOpt2" : "Odesa",
+      "SlotOpt14" : "Sunset",
+      "LumeColorOpt9" : "Black",
+      "SlotOpt15" : "Sunrise + sunset",
+      "HandStyleTitle" : "Hand style",
+      "LumeColorOpt0" : "White",
+      "Tz2HandColorTitle" : "Second time zone hand colour",
+      "LumeColorOpt11" : "Sky blue",
+      "LumeColorOpt10" : "Cream",
+      "LumeColorTitle" : "Hands colour",
+      "ThemeOpt11" : "Plum",
+      "ThemeOpt10" : "Olive",
+      "ThemeOpt3" : "Green",
+      "ThemeOpt2" : "Ocean blue",
+      "ThemeOpt5" : "Slate grey",
+      "ThemeOpt4" : "Burgundy",
+      "ThemeOpt7" : "Cream",
+      "ThemeOpt6" : "Paper",
+      "ThemeOpt9" : "Petrol",
+      "ThemeOpt8" : "Carbon",
+      "Tz2OffsetTitle" : "Second zone: UTC offset (hours)",
+      "ThemeOpt1" : "Black",
+      "ThemeOpt0" : "Navy",
+      "CityLatTitle" : "Custom city latitude",
+      "ShowFramesTitle" : "Circles around gauges and boxes around windows",
+      "LabelStyleTitle" : "Labels",
+      "CityTitle" : "City for weather and sunrise",
+      "MarkerScaleTitle" : "Size: ticks and numerals (%)",
+      "AccentOpt13" : "Teal",
+      "AccentOpt12" : "Amber",
+      "PatternContrastTitle" : "Pattern contrast",
+      "SunMarksTitle" : "Sunrise / sunset on outer ring",
+      "AccentOpt11" : "Lime",
+      "AccentOpt10" : "Magenta",
+      "AccentOpt15" : "Graphite",
+      "AccentOpt14" : "Copper",
+      "HandScaleTitle" : "Size: hand width (%)",
+      "TextColorTitle" : "Numerals and text colour",
+      "PatternTitle" : "Pixel pattern",
+      "HomeOffsetTitle" : "Main time: UTC offset (hours)",
+      "AccentOpt0" : "Gold",
+      "AccentOpt4" : "Yellow",
+      "AccentOpt3" : "Blue",
+      "Tz2HandTitle" : "Second time zone hand on main dial",
+      "AccentOpt2" : "Rose gold",
+      "AccentOpt1" : "Steel",
+      "AccentOpt8" : "Red",
+      "AccentOpt7" : "White",
+      "AccentOpt6" : "Orange",
+      "AccentOpt5" : "Green",
+      "AccentOpt9" : "Cyan",
+      "DialLabel3Title" : "Dial text line 3",
+      "StatusIconsOpt0" : "Off",
+      "StatusIconsOpt2" : "Alarm + phone disconnected",
+      "StatusIconsOpt1" : "Alarm",
+      "ShowMinuteTicksTitle" : "Show minute ticks",
+      "Tz2DstOpt2" : "US rule (New York)",
+      "Window6Title" : "Window at 6",
+      "Tz2DstOpt0" : "None",
+      "Tz2DstOpt1" : "EU rule (Kyiv, Europe)",
+      "NumeralStyleTitle" : "Numerals",
+      "AppName" : "Kyiv Tacho",
+      "SecondsColorOpt7" : "White",
+      "CityOpt14" : "Custom (latitude / longitude below)",
+      "SlotTopTitle" : "Top gauge",
+      "CityOpt13" : "New York",
+      "CityOpt12" : "London",
+      "TempSourceTitle" : "Temperature source",
+      "CityOpt11" : "Berlin",
+      "SecondsColorOpt2" : "Same as hands",
+      "CityOpt10" : "Warsaw",
+      "SecondsColorOpt1" : "Red",
+      "SecondsColorOpt0" : "Orange",
+      "SecondsColorOpt6" : "Lime",
+      "SecondsColorOpt5" : "Cyan",
+      "SecondsColorOpt4" : "Yellow",
+      "SecondsColorOpt3" : "Accent",
+      "FontStyleOpt2" : "Roboto",
+      "FontStyleOpt1" : "Roboto Condensed",
+      "RingModeTitle" : "Outer ring",
+      "FontStyleOpt4" : "Swiss 721",
+      "FontStyleOpt3" : "Bionic",
+      "FontStyleOpt6" : "Pixel (retro)",
+      "FontStyleOpt5" : "Serif",
+      "FontStyleOpt8" : "Bauhaus (Jost)",
+      "FontStyleOpt7" : "Instrument (Barlow)",
+      "AccentTitle" : "Accent colour",
+      "FontStyleOpt9" : "Wide technical (Michroma)"
+    }
+  }
+}

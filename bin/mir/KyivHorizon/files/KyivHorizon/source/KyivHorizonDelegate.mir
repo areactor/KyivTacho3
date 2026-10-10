@@ -1,0 +1,64 @@
+[ @file = "/Users/ho/Documents/Garmin/KyivTacho3/KyivHorizon/files/KyivHorizon/source/KyivHorizonDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [WatchUi,1,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/Users/ho/Documents/Garmin/KyivTacho3/KyivHorizon/files/KyivHorizon/source/KyivHorizonDelegate.mc"; @line = 3; @symbol_classdef = [KyivHorizonDelegate,3,6,25]; @symbol_extends<0> = [WatchUi,3,34,41]; @symbol_extends<1> = [WatchFaceDelegate,3,42,59]; ]
+class KyivHorizonDelegate extends WatchUi.WatchFaceDelegate {
+    [ @file = "/Users/ho/Documents/Garmin/KyivTacho3/KyivHorizon/files/KyivHorizon/source/KyivHorizonDelegate.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "/Users/ho/Documents/Garmin/KyivTacho3/KyivHorizon/files/KyivHorizon/source/KyivHorizonDelegate.mc"; @line = 3; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/ho/Documents/Garmin/KyivTacho3/KyivHorizon/files/KyivHorizon/source/KyivHorizonDelegate.mc"; @line = 4; @position = 8; @symbol_vardef = [view,4,8,12]; ]
+    var view;
+    [ @file = "/Users/ho/Documents/Garmin/KyivTacho3/KyivHorizon/files/KyivHorizon/source/KyivHorizonDelegate.mc"; @line = 6; @symbol_functiondef = [initialize,6,13,23]; @symbol_param<0> = [v,6,24,25]; ]
+    function initialize(v) as Void {
+_Users_ho_Documents_Garmin_KyivTacho3_KyivHorizon_files_KyivHorizon_source_KyivHorizonDelegate_mc_6_27_9_4_start:
+[ "/Users/ho/Documents/Garmin/KyivTacho3/KyivHorizon/files/KyivHorizon/source/KyivHorizonDelegate.mc" 7 8 ]
+        symbol [ WatchFaceDelegate %tmp.2 7 8 25 ];
+        %tmp.2 = getv ? :WatchFaceDelegate;
+        symbol [ initialize %tmp.3 7 26 36 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/ho/Documents/Garmin/KyivTacho3/KyivHorizon/files/KyivHorizon/source/KyivHorizonDelegate.mc" 8 8 ]
+        %tmp.4 = lgetv %v;
+        symbol [ v %tmp.4 8 15 16 ];
+        symbol [ view ? 8 8 12 ];
+        putv self :view %tmp.4;
+_Users_ho_Documents_Garmin_KyivTacho3_KyivHorizon_files_KyivHorizon_source_KyivHorizonDelegate_mc_6_27_9_4_stop:
+    }
+    [ @file = "/Users/ho/Documents/Garmin/KyivTacho3/KyivHorizon/files/KyivHorizon/source/KyivHorizonDelegate.mc"; @line = 11; @symbol_functiondef = [onPress,11,13,20]; @symbol_param<0> = [clickEvent,11,21,31]; ]
+    function onPress(clickEvent) {
+_Users_ho_Documents_Garmin_KyivTacho3_KyivHorizon_files_KyivHorizon_source_KyivHorizonDelegate_mc_11_33_14_4_start:
+[ "/Users/ho/Documents/Garmin/KyivTacho3/KyivHorizon/files/KyivHorizon/source/KyivHorizonDelegate.mc" 12 8 ]
+        [ "_Users_ho_Documents_Garmin_KyivTacho3_KyivHorizon_files_KyivHorizon_source_KyivHorizonDelegate_mc_11_33_14_4_start" "_Users_ho_Documents_Garmin_KyivTacho3_KyivHorizon_files_KyivHorizon_source_KyivHorizonDelegate_mc_11_33_14_4_stop" ]
+        %xy.1 = local;
+        symbol [ xy %xy.1 12 12 14 ];
+        %tmp.1 = lgetv %clickEvent;
+        symbol [ clickEvent %tmp.1 12 17 27 ];
+        symbol [ getCoordinates %tmp.2 12 28 42 ];
+        %tmp.2 = getv function %tmp.1 :getCoordinates;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %xy.1 %tmp.3;
+        symbol [ xy %xy.1 12 12 14 ];
+[ "/Users/ho/Documents/Garmin/KyivTacho3/KyivHorizon/files/KyivHorizon/source/KyivHorizonDelegate.mc" 13 8 ]
+        symbol [ view %tmp.5 13 15 19 ];
+        %tmp.5 = getv ? :view;
+        symbol [ handleTap %tmp.6 13 20 29 ];
+        %tmp.6 = getv function %tmp.5 :handleTap;
+        %tmp.7 = lgetv %xy.1;
+        symbol [ xy %tmp.7 13 30 32 ];
+        %tmp.8 = 0;
+        %tmp.9 = agetv %tmp.7 %tmp.8;
+        %tmp.10 = lgetv %xy.1;
+        symbol [ xy %tmp.10 13 37 39 ];
+        %tmp.11 = 1;
+        %tmp.12 = agetv %tmp.10 %tmp.11;
+        %tmp.13 = invoke %tmp.5 %tmp.6(%tmp.9, %tmp.12);
+        ret %tmp.13;
+_Users_ho_Documents_Garmin_KyivTacho3_KyivHorizon_files_KyivHorizon_source_KyivHorizonDelegate_mc_11_33_14_4_stop:
+    }
+}
+[ @file = "/Users/ho/Documents/Garmin/KyivTacho3/KyivHorizon/files/KyivHorizon/source/KyivHorizonDelegate.mc"; @line = 1; ]
+<init> {
+}

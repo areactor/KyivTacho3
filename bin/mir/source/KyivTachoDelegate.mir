@@ -1,0 +1,64 @@
+[ @file = "/Users/ho/Documents/Garmin/KyivTacho3/source/KyivTachoDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [WatchUi,1,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/Users/ho/Documents/Garmin/KyivTacho3/source/KyivTachoDelegate.mc"; @line = 4; @symbol_classdef = [KyivTachoDelegate,4,6,23]; @symbol_extends<0> = [WatchUi,4,32,39]; @symbol_extends<1> = [WatchFaceDelegate,4,40,57]; ]
+class KyivTachoDelegate extends WatchUi.WatchFaceDelegate {
+    [ @file = "/Users/ho/Documents/Garmin/KyivTacho3/source/KyivTachoDelegate.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "/Users/ho/Documents/Garmin/KyivTacho3/source/KyivTachoDelegate.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/ho/Documents/Garmin/KyivTacho3/source/KyivTachoDelegate.mc"; @line = 5; @position = 8; @symbol_vardef = [view,5,8,12]; ]
+    var view;
+    [ @file = "/Users/ho/Documents/Garmin/KyivTacho3/source/KyivTachoDelegate.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; @symbol_param<0> = [v,7,24,25]; ]
+    function initialize(v) as Void {
+_Users_ho_Documents_Garmin_KyivTacho3_source_KyivTachoDelegate_mc_7_27_10_4_start:
+[ "/Users/ho/Documents/Garmin/KyivTacho3/source/KyivTachoDelegate.mc" 8 8 ]
+        symbol [ WatchFaceDelegate %tmp.2 8 8 25 ];
+        %tmp.2 = getv ? :WatchFaceDelegate;
+        symbol [ initialize %tmp.3 8 26 36 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/ho/Documents/Garmin/KyivTacho3/source/KyivTachoDelegate.mc" 9 8 ]
+        %tmp.4 = lgetv %v;
+        symbol [ v %tmp.4 9 15 16 ];
+        symbol [ view ? 9 8 12 ];
+        putv self :view %tmp.4;
+_Users_ho_Documents_Garmin_KyivTacho3_source_KyivTachoDelegate_mc_7_27_10_4_stop:
+    }
+    [ @file = "/Users/ho/Documents/Garmin/KyivTacho3/source/KyivTachoDelegate.mc"; @line = 12; @symbol_functiondef = [onPress,12,13,20]; @symbol_param<0> = [clickEvent,12,21,31]; ]
+    function onPress(clickEvent) {
+_Users_ho_Documents_Garmin_KyivTacho3_source_KyivTachoDelegate_mc_12_33_15_4_start:
+[ "/Users/ho/Documents/Garmin/KyivTacho3/source/KyivTachoDelegate.mc" 13 8 ]
+        [ "_Users_ho_Documents_Garmin_KyivTacho3_source_KyivTachoDelegate_mc_12_33_15_4_start" "_Users_ho_Documents_Garmin_KyivTacho3_source_KyivTachoDelegate_mc_12_33_15_4_stop" ]
+        %xy.1 = local;
+        symbol [ xy %xy.1 13 12 14 ];
+        %tmp.1 = lgetv %clickEvent;
+        symbol [ clickEvent %tmp.1 13 17 27 ];
+        symbol [ getCoordinates %tmp.2 13 28 42 ];
+        %tmp.2 = getv function %tmp.1 :getCoordinates;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %xy.1 %tmp.3;
+        symbol [ xy %xy.1 13 12 14 ];
+[ "/Users/ho/Documents/Garmin/KyivTacho3/source/KyivTachoDelegate.mc" 14 8 ]
+        symbol [ view %tmp.5 14 15 19 ];
+        %tmp.5 = getv ? :view;
+        symbol [ handleTap %tmp.6 14 20 29 ];
+        %tmp.6 = getv function %tmp.5 :handleTap;
+        %tmp.7 = lgetv %xy.1;
+        symbol [ xy %tmp.7 14 30 32 ];
+        %tmp.8 = 0;
+        %tmp.9 = agetv %tmp.7 %tmp.8;
+        %tmp.10 = lgetv %xy.1;
+        symbol [ xy %tmp.10 14 37 39 ];
+        %tmp.11 = 1;
+        %tmp.12 = agetv %tmp.10 %tmp.11;
+        %tmp.13 = invoke %tmp.5 %tmp.6(%tmp.9, %tmp.12);
+        ret %tmp.13;
+_Users_ho_Documents_Garmin_KyivTacho3_source_KyivTachoDelegate_mc_12_33_15_4_stop:
+    }
+}
+[ @file = "/Users/ho/Documents/Garmin/KyivTacho3/source/KyivTachoDelegate.mc"; @line = 1; ]
+<init> {
+}
